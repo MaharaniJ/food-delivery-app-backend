@@ -1,0 +1,9 @@
+https://social-login-backend-7jnn.onrender.com/auth/facebook
+
+https://social-login-backend-7jnn.onrender.com/auth/facebook/callback
+
+https://food-delivery-app-76f65.firebaseapp.com/__/auth/handler
+
+https://social-login-backend-7jnn.onrender.com/auth/github/callback
+
+https://startling-figolla-c506c8.netlify.app/

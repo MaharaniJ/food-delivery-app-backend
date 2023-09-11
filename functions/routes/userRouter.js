@@ -1,12 +1,11 @@
 /* eslint-disable new-cap */
 const router = require("express").Router();
 const admin = require("firebase-admin");
-
 router.get("/", (req, res) => {
   return res.json("Inside userRoute");
 });
 
-router.get("/jwtVerfication", async (req, res) =>{
+router.get("/jwtVerfication", async (req, res) => {
   if (!req.headers.authorization) {
     return res.status(500).json({message: "Token not found"});
   }
@@ -26,4 +25,5 @@ router.get("/jwtVerfication", async (req, res) =>{
   }
 });
 module.exports = router;
-/* eslint-enable new-cap */
+
+

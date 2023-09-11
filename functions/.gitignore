@@ -3,3 +3,4 @@ node_modules/
 .serviceAccontKey.json
 serviceAccontKey
 env
+prev-social-login.txt
